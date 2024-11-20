@@ -1,27 +1,44 @@
-# UsersFront
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+# Documentación del Proyecto: Usuarios Front
 
-## Development server
+Este proyecto fue generado con **Angular CLI** versión 18.2.0.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Especificaciones Técnicas
 
-## Code scaffolding
+- **Angular CLI**: versión 18.2.0.
+- **Uso de Bootstrap**.
+- **Uso de Tailwind**.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Configuración del Entorno
 
-## Build
+### 1. Clona el Repositorio del Proyecto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Clona el repositorio ejecutando el siguiente comando:
 
-## Running unit tests
+```bash
+git clone https://github.com/sebassuaza98/front_usuarios.git
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 2. Instala las Dependencias con npm
 
-## Running end-to-end tests
+Ejecuta el siguiente comando para instalar las dependencias:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+npm install
+```
 
-## Further help
+### Ejecutar la Aplicación
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Para ejecutar la aplicación, utiliza el siguiente comando:
+
+```bash
+ng serve
+```
+
+## Servidor de Desarrollo
+
+Ejecuta `ng serve` para un servidor de desarrollo. Navega a [http://localhost:4200/](http://localhost:4200/). La aplicación se recargará automáticamente si cambias alguno de los archivos fuente.
+
+## Construir
+
+Ejecuta `ng build` para construir el proyecto. Los artefactos de la construcción se almacenarán en el directorio `dist/`.
